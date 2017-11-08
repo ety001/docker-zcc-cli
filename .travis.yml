@@ -5,4 +5,4 @@ before_install:
   - docker build -t "ety001/docker-zcc-cli:test" .
   - docker images
 script:
-  - docker run -it ety001/docker-zcc-cli:test --help
+  - docker run -it --rm ety001/docker-zcc-cli:test --help
